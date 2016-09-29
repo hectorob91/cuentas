@@ -45,6 +45,10 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+  #react install 
+  config.react.variant = :development
+  # use :production in production.rb
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
